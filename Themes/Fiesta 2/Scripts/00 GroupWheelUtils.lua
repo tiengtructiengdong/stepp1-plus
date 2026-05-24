@@ -38,7 +38,10 @@ local SortsSounds = {
 	{"SO_LEVEL_21", "39_LEVEL21.MP3"};
 	{"SO_LEVEL_22", "40_LEVEL22.MP3"};
 	{"SO_LEVEL_23", "41_LEVEL23.MP3"};
-	{"SO_LEVEL_24", "42_LEVEL24OVER.MP3"}
+	{"SO_LEVEL_24", "42_LEVEL24OVER.MP3"};
+	{"SO_LEVEL_25", "42_LEVEL24OVER.MP3"};
+	{"SO_LEVEL_26", "42_LEVEL24OVER.MP3"};
+	{"SO_LEVEL_27", "42_LEVEL24OVER.MP3"}
 	--{"FAVORITES", "19_FAVORITES.WAV"}
 }
 
@@ -138,7 +141,10 @@ ChannelsGraphics = {
 	["SO_LEVEL_21"] = "C_LV_21.PNG";
 	["SO_LEVEL_22"] = "C_LV_22.PNG";
 	["SO_LEVEL_23"] = "C_LV_23.PNG";
-	["SO_LEVEL_24"] = "C_LV_24O.PNG";
+	["SO_LEVEL_24"] = "C_LV_24.PNG";
+	["SO_LEVEL_25"] = "C_LV_25.PNG";
+	["SO_LEVEL_26"] = "C_LV_26.PNG";
+	["SO_LEVEL_27"] = "C_LV_27O.PNG";
 	["SO_JMUSIC"] = "C_JM.PNG";
 --[[	
 	["04-SKILLUP ZONE"] = 	"C_SU.PNG";
@@ -161,35 +167,35 @@ ChannelsGraphics = {
 -- [left, top, right, bot]
 
 local ChannelsTextCoordSpanish = {
-	["SO_ALLTUNES"] = 		 "En este canal, puedes jugar todas las canciones estándar." ;
+	["SO_ALLTUNES"] = 		 "En este canal, puedes jugar todas las canciones estï¿½ndar." ;
 	["SO_ORIGINAL"] = 		 "En este canal, puedes jugar una variedad de las canciones\noriginales de PIU." ;
 	["SO_KPOP"] =			 "En este canal, puedes jugar una variedad de canciones de K-POP." ;
 	["SO_WORLDMUSIC"] = 	 "En este canal, puedes jugar una\nvariedad de canciones de todo el mundo." ;
 	["SO_UCS"] = 			 "En este canal, puedes jugar tus steps personalizados." ;
-	["SO_QUEST"] = 			 "En este canal, puedes jugar una recopilación de misiones." ;
-	["SO_COOP"] = 			 "En este canal, puedes jugar canciones que requieren\nun juego cooperativo de dos o más jugadores." ;
-	["SO_RANDOM"] = 		 "En este canal, puedes jugar una canción seleccionada\nal azar en una dificultad especifica." ;
-	["SO_FULLSONGS"] = 		 "En este canal, puedes jugar canciones originales sin modificación." ;
+	["SO_QUEST"] = 			 "En este canal, puedes jugar una recopilaciï¿½n de misiones." ;
+	["SO_COOP"] = 			 "En este canal, puedes jugar canciones que requieren\nun juego cooperativo de dos o mï¿½s jugadores." ;
+	["SO_RANDOM"] = 		 "En este canal, puedes jugar una canciï¿½n seleccionada\nal azar en una dificultad especifica." ;
+	["SO_FULLSONGS"] = 		 "En este canal, puedes jugar canciones originales sin modificaciï¿½n." ;
 	["SO_REMIX"] = 			 "En este canal, puedes jugar canciones mezcladas." ;
-	["SO_SHORTCUT"] = 		 "En este canal, puedes jugar canciones que han sido\neditadas a un minuto de duración." ;
+	["SO_SHORTCUT"] = 		 "En este canal, puedes jugar canciones que han sido\neditadas a un minuto de duraciï¿½n." ;
 	["04-SKILLUP ZONE"] = 	 "En este canal, puedes jugar canciones para mejorar\ntus habilidades de baile." ;
-	["05-JUMP"] =     		 "En este canal, puedes jugar las canciones de la versión JUMP." ;
-	["01 - 1ST~3RD"] = 		 "En este canal, puedes jugar las canciones típicas de las versiones\n1st hasta 3rd." ;
-	["02 - S.E.~EXTRA"] = 	 "En este canal, puedes jugar las canciones típicas de las versiones\nSE hasta EXTRA." ;
-	["03 - REBIRTH~PREX 3"] =  "En este canal, puedes jugar las canciones típicas de las versiones\nREBIRTH hasta PREX3." ;
-	["04 - EXCEED~ZERO"] = 	 "En este canal, puedes jugar las canciones típicas de las versiones\nEXCEED hasta ZERO." ;
-	["05 - NX~NX2"] = 		 "En este canal, puedes jugar las canciones típicas de las versiones\nNX hasta NX2." ;
-	["06 - NX ABSOLUTE"] = 	 "En este canal, puedes jugar las canciones de la versión NX Absolute." ;
-	["07 - PRO~PRO2"] = 		 "En este canal, puedes jugar las canciones típicas de las versiones\nPRO y PRO2." ; 
-	["08 - FIESTA"] = 		 "En este canal, puedes jugar las canciones de la versión FIESTA." ;
-	["09 - FIESTA EX"] =	 	 "En este canal, puedes jugar las canciones de la versión FIESTA EX." ;
-	["10 - FIESTA 2"] = 		 "En este canal, puedes jugar las canciones de la versión FIESTA 2." ;
-	["11 -INFINITY"] = 		 "En este canal, puedes jugar las canciones de la versión INFINITY." ;
-	["12 - PRIME"] = 			 "En este canal, puedes jugar las canciones de la versión PRIME." ;
-	["13 - PRIME 2"] = 	     "En este canal, puedes jugar las canciones de la versión PRIME 2." ;
-    ["14 - XX"] = 			 "En este canal, puedes jugar las canciones de la versión XX." ;
-	["15 - MOBILE EDITION"] =	"En este canal, puedes jugar las canciones de la versión MOBILE EDITION." ;
-	["16 - PHOENIX"] =	"En este canal, puedes jugar las canciones de la versión PHOENIX." ;
+	["05-JUMP"] =     		 "En este canal, puedes jugar las canciones de la versiï¿½n JUMP." ;
+	["01 - 1ST~3RD"] = 		 "En este canal, puedes jugar las canciones tï¿½picas de las versiones\n1st hasta 3rd." ;
+	["02 - S.E.~EXTRA"] = 	 "En este canal, puedes jugar las canciones tï¿½picas de las versiones\nSE hasta EXTRA." ;
+	["03 - REBIRTH~PREX 3"] =  "En este canal, puedes jugar las canciones tï¿½picas de las versiones\nREBIRTH hasta PREX3." ;
+	["04 - EXCEED~ZERO"] = 	 "En este canal, puedes jugar las canciones tï¿½picas de las versiones\nEXCEED hasta ZERO." ;
+	["05 - NX~NX2"] = 		 "En este canal, puedes jugar las canciones tï¿½picas de las versiones\nNX hasta NX2." ;
+	["06 - NX ABSOLUTE"] = 	 "En este canal, puedes jugar las canciones de la versiï¿½n NX Absolute." ;
+	["07 - PRO~PRO2"] = 		 "En este canal, puedes jugar las canciones tï¿½picas de las versiones\nPRO y PRO2." ; 
+	["08 - FIESTA"] = 		 "En este canal, puedes jugar las canciones de la versiï¿½n FIESTA." ;
+	["09 - FIESTA EX"] =	 	 "En este canal, puedes jugar las canciones de la versiï¿½n FIESTA EX." ;
+	["10 - FIESTA 2"] = 		 "En este canal, puedes jugar las canciones de la versiï¿½n FIESTA 2." ;
+	["11 -INFINITY"] = 		 "En este canal, puedes jugar las canciones de la versiï¿½n INFINITY." ;
+	["12 - PRIME"] = 			 "En este canal, puedes jugar las canciones de la versiï¿½n PRIME." ;
+	["13 - PRIME 2"] = 	     "En este canal, puedes jugar las canciones de la versiï¿½n PRIME 2." ;
+    ["14 - XX"] = 			 "En este canal, puedes jugar las canciones de la versiï¿½n XX." ;
+	["15 - MOBILE EDITION"] =	"En este canal, puedes jugar las canciones de la versiï¿½n MOBILE EDITION." ;
+	["16 - PHOENIX"] =	"En este canal, puedes jugar las canciones de la versiï¿½n PHOENIX." ;
 	["19-STEPF2"] =   		 "En este super canal, puedes jugar las canciones de STEPF2." ;
 	["SO_LEVEL_1"] =  "En este canal, puedes jugar canciones de nivel 1." ;
 	["SO_LEVEL_2"] =  "En este canal, puedes jugar canciones de nivel 2." ;
@@ -214,7 +220,10 @@ local ChannelsTextCoordSpanish = {
 	["SO_LEVEL_21"] =  "En este canal, puedes jugar canciones de nivel 21." ;
 	["SO_LEVEL_22"] =  "En este canal, puedes jugar canciones de nivel 22." ;
 	["SO_LEVEL_23"] =  "En este canal, puedes jugar canciones de nivel 23." ;
-	["SO_LEVEL_24"] =  "En este canal, puedes jugar canciones de nivel 24 o más." ;
+	["SO_LEVEL_24"] =  "En este canal, puedes jugar canciones de nivel 24." ;
+	["SO_LEVEL_25"] =  "En este canal, puedes jugar canciones de nivel 25." ;
+	["SO_LEVEL_26"] =  "En este canal, puedes jugar canciones de nivel 26." ;
+	["SO_LEVEL_27"] =  "En este canal, puedes jugar canciones de nivel 27 o m\u00e1s." ;
 	["SO_JMUSIC"] =  "En este canal, puedes jugar una variedad de canciones japonesas." ;
 }
 
@@ -272,7 +281,10 @@ local ChannelsTextCoordEnglish = {
 	["SO_LEVEL_21"] =  "In this channel, you can play level 21 difficulty songs." ;
 	["SO_LEVEL_22"] =  "In this channel, you can play level 22 difficulty songs." ;
 	["SO_LEVEL_23"] =  "In this channel, you can play level 23 difficulty songs." ;
-	["SO_LEVEL_24"] =  "In this channel, you can play songs that are level 24 difficulty or higher." ;
+	["SO_LEVEL_24"] =  "In this channel, you can play level 24 difficulty songs." ;
+	["SO_LEVEL_25"] =  "In this channel, you can play level 25 difficulty songs." ;
+	["SO_LEVEL_26"] =  "In this channel, you can play level 26 difficulty songs." ;
+	["SO_LEVEL_27"] =  "In this channel, you can play songs that are level 27 difficulty or higher." ;
 	["SO_JMUSIC"] =  "In this channel, you can play a variety of Japanese musics." ;
 }
 
@@ -358,7 +370,10 @@ local Renames = {
 	["SO_LEVEL_21"] = "LEVEL 21";
 	["SO_LEVEL_22"] = "LEVEL 22";
 	["SO_LEVEL_23"] = "LEVEL 23";
-	["SO_LEVEL_24"] = "LEVEL 24~";
+	["SO_LEVEL_24"] = "LEVEL 24";
+	["SO_LEVEL_25"] = "LEVEL 25";
+	["SO_LEVEL_26"] = "LEVEL 26";
+	["SO_LEVEL_27"] = "LEVEL 27~";
 	
 	["SO_JMUSIC"] = "J-MUSIC";
 }
